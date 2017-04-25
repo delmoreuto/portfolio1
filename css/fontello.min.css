@@ -58,5 +58,10 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-mail:before { content: '\e800'; } /* '' */
-.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-mail:before { content: '\e800'; } /* '' */
+.icon-th-2:before { content: '\e803'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+
+
+
+

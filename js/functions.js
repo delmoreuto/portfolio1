@@ -54,9 +54,6 @@ jQuery(function($) {
 
 
 
-
-
-
 	/*
 		Contact Form
 	*/
