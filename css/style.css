@@ -1002,7 +1002,7 @@ input:focus, textarea:focus {
 }
 
 #works-grid .gutter {
-    width: 2.35%;
+    width: 2.5%;
 }
 
 #works-grid .works-item {
@@ -1011,8 +1011,8 @@ input:focus, textarea:focus {
     overflow: hidden;
     /*border: none;*/
     /*border: 20px solid #867e7c;*/
-    width: 29%;
-    margin-bottom: 2.35%;
+    width: 30%;
+    margin-bottom: 2.5%;
     padding-bottom: 0;
     z-index: 3;
 }
