@@ -25,13 +25,17 @@
 	2. Common Styles
 */
 
-
+#page-wrap {
+     height: 500px;
+     margin: 15% auto;
+}
 
 body {
     font-family: 'Roboto', 'Tahoma', 'Arial', sans-serif;
     font-weight: 300;
-    background-color: rgba(255,245,235, 0.30); 
-	/*background-color: rgba(255,254,249, 10); */
+    /*background-color: rgba(255,245,235, 0.30); 
+	background-color: rgba(255,254,249, 10);*/
+    background-color: #f9f3ee;
     letter-spacing: .2px;
 
 }
@@ -54,6 +58,7 @@ body {
     overflow: hidden;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     line-height: 1.2;
@@ -72,6 +77,8 @@ h1, h2, h3, h4, h5, h6 {
     height: .5px;
     background-color: #867e7c;
     margin-top: 0px;
+    
+
 
 }
 
@@ -83,7 +90,7 @@ h1 {
 
 h2 {
     font-size: 28px;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
 
     
 }
@@ -94,15 +101,19 @@ h3 {
 
 h4 {
     font-size: 18px;
+    margin-bottom: .5px;
+    
 }
 
 h5 {
     font-size: 16px;
+
 }
 
 h6 {
     font-size: 12px;
 }
+
 
 p {
     font-size: 15px;
@@ -111,7 +122,7 @@ p {
 }
 
 p.lead {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 a {
@@ -823,7 +834,7 @@ input:focus, textarea:focus {
     width: 100%;
     height: 1px;
     
-    background-color: rgba(191, 191, 191, 0.12);
+    background-color: rgba(191, 191, 191, 0.25);
     margin-top: 3px;
 }
 
@@ -1129,8 +1140,9 @@ input:focus, textarea:focus {
 
 #project-page #main .title-image img {
     width: 100%;
+    margin-bottom: 8%;
+    margin-left: 15px;
     
-    margin-top: 0%;
     /*margin-bottom: 10%;*/
 }
 
@@ -1139,7 +1151,7 @@ input:focus, textarea:focus {
 
 #project-page #main .gallery a {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 10%;
     margin-left: 15px;
     border-bottom: none;
 }
@@ -1159,7 +1171,7 @@ input:focus, textarea:focus {
 }
 
 #project-page #main .description p {
-    font-size: 14px;
+    font-size: 12px;
     /*margin: 10px 0 20px;*/
 
 
@@ -2032,7 +2044,7 @@ input:focus, textarea:focus {
 
 #introsocial .share-block a:hover {
     text-decoration: none;
-    color: #dd8d68;
+    color: #ff5c35;
 }
 
 #introsocial .share-block a:after {
