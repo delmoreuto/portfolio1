@@ -102,7 +102,7 @@ img {
 
 body {
     /* font-family: 'Roboto', 'Tahoma', 'Arial', sans-serif; */
-    font-family: 'Unica77 Mono LL';
+    font-family: 'Unica77 Mono LL', monospace;
     font-weight: lighter;
     /*background-color: rgba(255,245,235, 0.30); 
 	background-color: rgba(255,254,249, 10);*/
