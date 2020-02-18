@@ -56,6 +56,16 @@ img {
 
 @font-face {
     font-family: 'Unica77 Mono LL';
+    src: url('fonts/Unica77MonoLL-Light.eot');
+    src: url('fonts/Unica77MonoLL-Light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Unica77MonoLL-Light.woff2') format('woff2'),
+         url('fonts/Unica77MonoLL-Light.woff') format('woff'),
+         url('fonts/Unica77MonoLL-Light.ttf')  format('truetype'),
+         url('fonts/Unica77MonoLL-Light.svg#Unica77 Mono LL Light') format('svg');
+}
+
+@font-face {
+    font-family: 'Unica77 Mono LL';
     src: url('fonts/Unica77MonoLL-Regular.eot');
     src: url('fonts/Unica77MonoLL-Regular.eot?#iefix') format('embedded-opentype'),
          url('fonts/Unica77MonoLL-Regular.woff2') format('woff2'),
@@ -88,7 +98,7 @@ img {
 body {
     /* font-family: 'Roboto', 'Tahoma', 'Arial', sans-serif; */
     font-family: 'Unica77 Mono LL';
-    font-weight: 300;
+    font-weight: lighter; 
     /*background-color: rgba(255,245,235, 0.30); 
 	background-color: rgba(255,254,249, 10);*/
     /* background-color: #fff6ee; */
@@ -593,6 +603,7 @@ input:focus, textarea:focus {
     color: #87685a;
     text-decoration: none;
     font-size: 16px;
+
 
     -webkit-transition: color 100ms;
             transition: color 100ms;
