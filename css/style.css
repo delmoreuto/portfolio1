@@ -212,6 +212,8 @@ a {
             transition: color 200ms, border-color 200ms;
 }
 
+
+
 a:hover, a:active, a:focus {
     color: #ff5c35;
     /*
@@ -1940,14 +1942,16 @@ margin: -5px 0 35px;
     #sidebar .logo {
         margin-bottom: 15px;
 
+
     }
 
     #sidebar .intro {
-        border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         padding-bottom: 20px;
     }
 
     #sidebar nav {
+        border-bottom: 1.5px solid rgba(207, 195, 189, 0.25); /*rgba(0, 0, 0, 0.1);*/
         padding: 15px 0 10px;
     }
 
@@ -1994,6 +1998,7 @@ margin: -5px 0 35px;
     }
 */
     #sidebar .copyright {
+        
         display: none;
     }
 
