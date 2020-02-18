@@ -56,38 +56,40 @@ img {
 
 @font-face {
     font-family: 'Unica77 Mono LL';
-    src: url('fonts/Unica77MonoLL-Light.eot');
-    src: url('fonts/Unica77MonoLL-Light.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Unica77MonoLL-Light.woff2') format('woff2'),
-         url('fonts/Unica77MonoLL-Light.woff') format('woff'),
-         url('fonts/Unica77MonoLL-Light.ttf')  format('truetype'),
-         url('fonts/Unica77MonoLL-Light.svg#Unica77 Mono LL Light') format('svg');
-    font-weight: lighter;
-
-}
-
-@font-face {
-    font-family: 'Unica77 Mono LL';
-    src: url('fonts/Unica77MonoLL-Regular.eot');
-    src: url('fonts/Unica77MonoLL-Regular.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Unica77MonoLL-Regular.woff2') format('woff2'),
-         url('fonts/Unica77MonoLL-Regular.woff') format('woff'),
-         url('fonts/Unica77MonoLL-Regular.ttf')  format('truetype'),
-         url('fonts/Unica77MonoLL-Regular.svg#Unica77 Mono LL') format('svg');
-    font-weight: normal;
-
-}
-
-@font-face {
-    font-family: 'Unica77 Mono LL';
-    src: url('fonts/Unica77MonoLL-Bold.eot');
-    src: url('fonts/Unica77MonoLL-Bold.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Unica77MonoLL-Bold.woff2') format('woff2'),
-         url('fonts/Unica77MonoLL-Bold.woff') format('woff'),
-         url('fonts/Unica77MonoLL-Bold.ttf')  format('truetype'),
-         url('fonts/Unica77MonoLL-Bold.svg#Unica77 Mono LL') format('svg');
+    src: url('Unica77MonoLL-Bold.eot');
+    src: url('Unica77MonoLL-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Unica77MonoLL-Bold.woff2') format('woff2'),
+        url('Unica77MonoLL-Bold.woff') format('woff'),
+        url('Unica77MonoLL-Bold.ttf') format('truetype'),
+        url('Unica77MonoLL-Bold.svg#Unica77MonoLL-Bold') format('svg');
     font-weight: bold;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: 'Unica77 Mono LL';
+    src: url('Unica77MonoLL-Regular.eot');
+    src: url('Unica77MonoLL-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Unica77MonoLL-Regular.woff2') format('woff2'),
+        url('Unica77MonoLL-Regular.woff') format('woff'),
+        url('Unica77MonoLL-Regular.ttf') format('truetype'),
+        url('Unica77MonoLL-Regular.svg#Unica77MonoLL-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Unica77 Mono LL';
+    src: url('Unica77MonoLL-Light.eot');
+    src: url('Unica77MonoLL-Light.eot?#iefix') format('embedded-opentype'),
+        url('Unica77MonoLL-Light.woff2') format('woff2'),
+        url('Unica77MonoLL-Light.woff') format('woff'),
+        url('Unica77MonoLL-Light.ttf') format('truetype'),
+        url('Unica77MonoLL-Light.svg#Unica77MonoLL-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
 
 
 /*
@@ -103,7 +105,7 @@ img {
 body {
     /* font-family: 'Roboto', 'Tahoma', 'Arial', sans-serif; */
     font-family: 'Unica77 Mono LL', monospace;
-    font-weight: lighter;
+    font-weight: 300;
     /*background-color: rgba(255,245,235, 0.30); 
 	background-color: rgba(255,254,249, 10);*/
     /* background-color: #fff6ee; */
