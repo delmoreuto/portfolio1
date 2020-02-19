@@ -1130,7 +1130,7 @@ input:focus, textarea:focus {
 }
 
 #works-grid .works-item {
-    display: block;
+    /*display: block;*/
 /*    position: relative; */
     overflow: hidden;
     border: none;
