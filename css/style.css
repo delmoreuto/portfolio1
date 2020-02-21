@@ -1,17 +1,17 @@
 /*
-	Contents:
-	1. Google Fonts Import
-	2. Common Styles
-	3. Sidebar
-	4. Main
-	5. Works Grid
-	6. Index Page
-	7. Project Page
-	8. About Page
-	9. Blog Page
-	10. Blog Single
-	11. Contact Page
-	12. Responsive
+    Contents:
+    1. Google Fonts Import
+    2. Common Styles
+    3. Sidebar
+    4. Main
+    5. Works Grid
+    6. Index Page
+    7. Project Page
+    8. About Page
+    9. Blog Page
+    10. Blog Single
+    11. Contact Page
+    12. Responsive
 */
 
 /*
@@ -36,7 +36,7 @@ img {
 
 
 
-	1. Google Fonts Import
+    1. Google Fonts Import
 */
 @import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900';
 @import 'https://fonts.googleapis.com/css?family=Lora:400,400italic';
@@ -93,7 +93,7 @@ img {
 
 
 /*
-	2. Common Styles
+    2. Common Styles
 */
 /*
 #page-wrap {
@@ -107,7 +107,7 @@ body {
     font-family: 'Unica77 Mono LL', monospace;
     font-weight: 300;
     /*background-color: rgba(255,245,235, 0.30); 
-	background-color: rgba(255,254,249, 10);*/
+    background-color: rgba(255,254,249, 10);*/
     /* background-color: #fff6ee; */
     letter-spacing: .2px;
 
@@ -542,13 +542,22 @@ input:focus, textarea:focus {
 }
 
 /*
-	3. Sidebar
+    3. Sidebar
 */
 
 #sidebar {
+
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    /*float: left;*/
+    overflow: hidden;
+    background-color: #ffffff;
+}
+    /*
     width: 25%;
     float: left;
-    overflow: hidden;
+    overflow: hidden;*/
 
     /*
     width: 20%;
@@ -1090,14 +1099,22 @@ input:focus, textarea:focus {
 
 
 /*
-	4. Main
+    4. Main
 */
 
 #main {
+    margin-left: 25%;
     float: left;
     overflow: hidden;
     width: 75%;
 }
+
+/*
+#main {
+    float: left;
+    overflow: hidden;
+    width: 75%;
+}*/
 
 #main .main-outer {
     overflow: hidden;
@@ -1118,7 +1135,7 @@ input:focus, textarea:focus {
 */
 
 /*
-	5. Works Grid
+    5. Works Grid
 */
 
 #works-grid {
@@ -1259,7 +1276,7 @@ input:focus, textarea:focus {
 }
 
 /*
-	6. Index Page
+    6. Index Page
 */
 
 #index-page #main .load-more {
@@ -1268,7 +1285,7 @@ input:focus, textarea:focus {
 }
 
 /*
-	7. Project Page
+    7. Project Page
 */
 
 #project-page #main .title-image img {
@@ -1568,7 +1585,7 @@ margin: -5px 0 35px;
 
 
 /*
-	8. About Page
+    8. About Page
 */
 
 #about-page #main .services {
@@ -1804,7 +1821,7 @@ margin: -5px 0 35px;
 
 
 /*
-	11. Contact Page
+    11. Contact Page
 */
 
 
@@ -1941,7 +1958,7 @@ margin: -5px 0 35px;
 
 
 /*
-	12. Responsive
+    12. Responsive
 */
 
 @media (max-width: 992px) {
@@ -1955,12 +1972,26 @@ margin: -5px 0 35px;
         padding: 60px 30px;
     }
 
+
+  #sidebar {
+    height: auto;
+    position: relative;
+    height: auto;
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0px;
+        z-index: 1;
+    }
+
+/*
     #sidebar {
         float: none;
         width: 100%;
         text-align: center;
         margin-bottom: 30px;
     }
+*/
 
     #sidebar .sidebar-inner {
         padding-right: 0;
@@ -2049,11 +2080,22 @@ margin: -5px 0 35px;
         margin: 0 5px;
     }
 
+
+    #main {
+        margin-left: 0;
+        margin-top: 5%;
+        float: none;
+        width: 100%;
+        z-index: 1;
+    }
+
+
+/*
     #main {
         float: none;
         width: 100%;
     }
-
+*/
     #main .main-outer {
         padding-left: 0;
     }
