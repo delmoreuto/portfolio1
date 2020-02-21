@@ -939,7 +939,7 @@ input:focus, textarea:focus {
 #sidebar .widgets-block .widget .title:after {
     content: '';
     display: block;
-    width: 180px;
+    width: 200px;
     height: 1px;
     
     background-color: rgba(207, 195, 189, 0.25);
